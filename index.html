@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RSP</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div class="container_title">
+        <article>
+          <h1>Rock Scissor and Paper</h1>
+        </article>
+
+        <button class="btn_play" type="button" name="button">Let's Play</button>
+      </div>
+      <article class="play_board">
+        <div class="container_playBoard">
+          <div class="score">
+            <p>Player:</p>
+            <p id='playerScore'>0</p>
+            <p>Computer:</p>
+            <p id='computerScore'>0</p>
+          </div>
+          <div class="result">
+            <p></p>
+          </div>
+          <p id='playBoard-text'>Choose an Option</p>
+          <div class="hands">
+            <img id='player-hand' src="image/paper.png" alt="Player" data-state=''>
+            <p>VS</p>
+            <img id='computer-hand' src="image/rock.png" alt="CPU" data-state=''>
+          </div>
+          <div class="rsp-selector">
+            <button type="button" name="button">Rock</button>
+            <button type="button" name="button">Scissors</button>
+            <button type="button" name="button">Paper</button>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+    <script src='app.js'></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background-color: #34495e;
+}
+
+.container_title h1 {
+  font-size: 70px;
+  color:#ecf0f1;
+}
+
+.container_title {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn_play {
+  width: 25%;
+  font-size: 30px;
+  border-radius: 8px;
+  color : #ecf0f1;
+  background-color: #2980b9;
+  border: none;
+  padding: 10px;
+}
+
+.btn_play:hover {
+  transform: scale(1.1);
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.play_board {
+  display: none;
+}
+
+.hands {
+  display: flex;
+  justify-content: space-around;;
+  align-items:center;
+  font-size: 60px;
+  color: #2980b9;
+}
+
+.container_playBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  height: 60vh;
+  color : #ecf0f1;
+  font-size: 30px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rsp-selector {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.rsp-selector button {
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: none;
+  color : #ecf0f1;
+  background-color: #2980b9;
+}
+
+.rsp-selector button:hover {
+  transform: scale(1.05);
+  transition-duration: 400ms;
+}
+
+.result {
+  text-align: center;
+  font-size: 80px;
+  color : #2980b9;
+  margin: 30px;
+}
+
+#playBoard-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 5px 5px;
+}
+
+#player-hand {
+  transform:rotateY(180deg);
+}
